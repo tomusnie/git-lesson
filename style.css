@@ -71,7 +71,7 @@ h1 {
 
 .item {
 	padding: 0.5rem;
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid rgb(143, 143, 143);
 	margin-bottom: 1.5rem;
 }
 
@@ -99,7 +99,7 @@ h1 {
 	background: none;
 	outline: none;
 	border: none;
-	color: white;
+	color: black;
 	font-size: 1.4rem;
 	font-family: 'Hind', sans-serif;
 	cursor: pointer;
