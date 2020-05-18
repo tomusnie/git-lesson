@@ -21,7 +21,7 @@ h1 {
 
 .title {
 	margin-right: 5px;
-	color: #b1a110;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 800;
 }
@@ -33,16 +33,12 @@ h1 {
 }
 
 .input {
-	background-color: rgb(155, 155, 155);
+	background-color: rgba(155, 155, 155, 0);
+	border-bottom: 1px solid rgb(255, 255, 255);
 	padding: 0.5rem 0.5rem;
-	outline: none;
-	border: none;
 	height: 50px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
-	width: 350px;
+	border-radius: 10px;
+	width: 300px;
 	margin: 0.1rem;
 	transition: .5s;
 	font-size: 1.15rem;
@@ -50,37 +46,38 @@ h1 {
 }
 
 ::-webkit-input-placeholder {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 :-moz-placeholder {
 	/* Firefox 18- */
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 ::-moz-placeholder {
 	/* Firefox 19+ */
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 :-ms-input-placeholder {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 .add {
 	outline: none;
 	border: none;
 	height: 50px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-	width: 100px;
-	background-color: #b1a110;
+	border-radius: 10px;
+	width: 80px;
+	background-color: #ffffff;
 	color: #000000;
 	cursor: pointer;
 	transition: .5s;
 	margin: 0.25rem;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	font-size: 20px;
+	font-family: 'Hind', sans-serif;
 }
 
 .add:hover {
@@ -98,15 +95,15 @@ h1 {
 
 .item {
 	padding: 0.5rem;
-	border-bottom: 1px solid rgb(0, 0, 0);
-	margin-bottom: 1.5rem;
+	/* border-bottom: 1px solid rgb(99, 0, 0); */
+	margin-bottom: 1rem;
 }
 
 .item_input {
 	background: none;
 	outline: none;
 	border: none;
-	color: rgb(138, 138, 138);
+	color: rgb(255, 255, 255);
 	font-size: 1.4rem;
 	width: 245px;
 	z-index: 2;
@@ -116,7 +113,7 @@ h1 {
 	background: none;
 	outline: none;
 	border: none;
-	color: #b1a110;
+	color: #ffffff;
 	font-size: 1.4rem;
 	font-family: 'Hind', sans-serif;
 	margin: 0 0.5rem;
