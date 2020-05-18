@@ -6,21 +6,22 @@
 
 body {
 	height: 100%;
-	background-color: white
+	background-color: black;
 	box-sizing: border-box;
 }
 
 h1 {
-	color: black;
+	color: white;
 	font-size: 3rem;
 	font-weight: 50;
 	text-align: center;
 	margin: 1rem 0 3rem;
-	font-family: 'Hind', sans-serif;
+	font-family: 'Bungee Shade', cursive;
 }
 
 .title {
-	color: #00d9f6;
+	margin-right: 5px;
+	color: #b1a110;
 	text-transform: uppercase;
 	font-weight: 800;
 }
@@ -32,25 +33,51 @@ h1 {
 }
 
 .input {
-	padding: 0.5rem 1rem;
+	background-color: rgba(255, 255, 255, 0.103);
+	padding: 0.5rem 0.5rem;
 	outline: none;
 	border: none;
 	height: 50px;
-	border-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
 	width: 350px;
-	margin: 0.25rem;
+	margin: 0.1rem;
 	transition: .5s;
 	font-size: 1.15rem;
+	z-index: 1;
+}
+
+::-webkit-input-placeholder {
+	color: white;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	color: white;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	color: white;
+}
+
+:-ms-input-placeholder {
+	color: white;
 }
 
 .add {
 	outline: none;
 	border: none;
 	height: 50px;
-	border-radius: 10px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 	width: 50px;
-	background-color: #00d9f6;
-	color: #6c7589;
+	background-color: #b1a110;
+	color: #000000;
 	cursor: pointer;
 	transition: .5s;
 	margin: 0.25rem;
@@ -71,7 +98,7 @@ h1 {
 
 .item {
 	padding: 0.5rem;
-	border-bottom: 2px solid rgb(143, 143, 143);
+	border-bottom: 1px solid rgb(255, 255, 255);
 	margin-bottom: 1.5rem;
 }
 
@@ -79,16 +106,17 @@ h1 {
 	background: none;
 	outline: none;
 	border: none;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 1.4rem;
 	width: 245px;
+	z-index: 2;
 }
 
 .edit {
 	background: none;
 	outline: none;
 	border: none;
-	color: #00d9f6;
+	color: #b1a110;
 	font-size: 1.4rem;
 	font-family: 'Hind', sans-serif;
 	margin: 0 0.5rem;
@@ -99,7 +127,7 @@ h1 {
 	background: none;
 	outline: none;
 	border: none;
-	color: black;
+	color: white;
 	font-size: 1.4rem;
 	font-family: 'Hind', sans-serif;
 	cursor: pointer;
