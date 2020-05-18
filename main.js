@@ -71,7 +71,7 @@ window.addEventListener('keydown', (e) => {
 
 function check() {
     if (inputValue.value != "") {
-       // new item(inputValue.value);
+        new item(inputValue.value);
         todos.push(inputValue.value);
         window.localStorage.setItem("todos", JSON.stringify(todos));
         inputValue.value = "";

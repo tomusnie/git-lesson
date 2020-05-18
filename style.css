@@ -16,7 +16,7 @@ h1 {
 	font-weight: 50;
 	text-align: center;
 	margin: 1rem 0 3rem;
-	font-family: 'Bungee Shade', cursive;
+	font-family: 'Bungee Shade';
 }
 
 .title {
@@ -34,7 +34,8 @@ h1 {
 
 .input {
 	background-color: rgba(155, 155, 155, 0);
-	border-bottom: 1px solid rgb(255, 255, 255);
+	border: none;
+	outline: none;
 	padding: 0.5rem 0.5rem;
 	height: 50px;
 	width: 300px;
@@ -65,18 +66,16 @@ h1 {
 .add {
 	outline: none;
 	border: none;
-	height: 50px;
-	border-radius: 10px;
+	height: 40px;
+	border-radius: 40px;
 	width: 80px;
 	background-color: #ffffff;
 	color: #000000;
 	cursor: pointer;
 	transition: .5s;
 	margin: 0.25rem;
-	padding-top: 11px;
-	padding-bottom: 12px;
 	font-size: 20px;
-	font-family: 'Hind', sans-serif;
+	font-family: 'Bungee Shade', cursive;
 }
 
 .add:hover {
