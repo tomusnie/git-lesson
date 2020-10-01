@@ -40,7 +40,6 @@ class item {
         itemBox.appendChild(input);
         itemBox.appendChild(edit);
         itemBox.appendChild(remove);
-
     }
 
     edit(input, name) {
@@ -69,6 +68,10 @@ window.addEventListener('keydown', (e) => {
     }
 })
 
+add.addEvemtListener('click', chceck);
+
+
+
 function check() {
     if (inputValue.value != "") {
         new item(inputValue.value);
@@ -82,6 +85,5 @@ function check() {
 for (var v = 0; v < todos.length; v++) {
     new item(todos[v]);
 }
-
 
 new item("New");
